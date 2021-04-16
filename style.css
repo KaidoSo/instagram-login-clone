@@ -5,6 +5,71 @@
 }
 
 body {
+    display: flex;
+    background-color: #fafafa;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    color: #8e8e8e;
+    font-weight: 400;
+}
+
+form {
+    margin-top: 10px;
+}
+
+input[type="password"], input[type="email"] {
+    display: block;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin-bottom: 6px;
+    font-size: .7rem;
+    width: 270px;
+    padding: 11px;
+    color: #262626;
     background-color: #fafafa;
 }
 
+input[type="submit"] {
+    width: 100%;
+    background-color: #b2dffc;
+    border-radius: 4px;
+    border: none;
+    margin: 10px 0;
+    padding: 8px 0;
+    font-size: 13px;
+    color: rgba(255,255,255,.9);
+    cursor: pointer;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+/* .main-container {
+    
+} */
+
+.top-container {
+    text-align: center;
+}
+
+.logo {
+    width: 175px;
+    padding: 25px 0;
+}
+
+.or-word {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grey-line {
+    height: 1px;
+    width: 110px;
+    border-bottom: 1px solid rgba(219,219,219,1);
+}
